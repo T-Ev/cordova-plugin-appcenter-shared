@@ -40,10 +40,7 @@
                        value="com.microsoft.azure.mobile.cordova.AppCenterSharedPlugin"/>
             </feature>
         </config-file>
-        <!-- <dependency id="com.microsoft.appcenter:appcenter" version="5.0.4" /> -->
-        <config-file target="app/build.gradle" parent="/*">
-            <include file="build-extras.gradle" />
-        </config-file>
+        <framework src="com.microsoft.appcenter:appcenter:5.0.4" />
     </platform>
 
     <platform name="ios">
